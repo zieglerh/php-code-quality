@@ -1,0 +1,15 @@
+parameters:
+    level: 6
+
+    paths:
+        - bundles
+        - src
+
+    excludePaths:
+        - '*/node_modules/*'
+
+    bootstrapFiles:
+        - phpstan-bootstrap.php
+
+    symfony:
+        containerXmlPath: var/cache/dev/App_KernelDevDebugContainer.xml
