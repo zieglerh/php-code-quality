@@ -3,6 +3,12 @@
   "description": "CLI tool for running PHP 8.x for Pimcore 11 code checks",
   "type": "library",
   "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Harald Ziegler",
+      "email": "h.ziegler@sent.com"
+    }
+  ],
   "require": {
     "squizlabs/php_codesniffer": "^3.6",
     "phpmd/phpmd": "2.13.0",
