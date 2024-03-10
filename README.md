@@ -20,8 +20,7 @@ CLI tools for running PHP code checks and refactoring for Pimcore
 ## Installation
 
 ### Composer
-```
-# version or specific branch
+```bash
 composer require --dev zieglerh/php-code-quality:^1.0
 ```
 
@@ -66,24 +65,28 @@ PHPSTAN_ARGS=...
 
 ### Code checks
 
-```
+```bash
 vendor/bin/code-check
 ```
 
 To execute only specific tools, you can append one or multiple arguments
 
-```
+```bash
 vendor/bin/code-check phpcs phpmd phpstan
 ```
 ### Automatic refactoring
 
 Display automatic code refactoring
 
-```vendor/bin/rector process --dry-run```
+```bash
+vendor/bin/rector process --dry-run
+```
 
 Run rector and change all files
 
-```vendor/bin/rector process```
+```bash
+vendor/bin/rector process
+```
 
 ## Configuring rulesets
 
